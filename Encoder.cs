@@ -4,9 +4,9 @@ using System.Text;
 
 namespace ASCIIEncoder
 {
-    public static class Encode
+    public static class Encoder
     {
-        public static string Convert(int value)
+        public static string Decode(int value)
         {
             string Character = null;
 
@@ -306,6 +306,308 @@ namespace ASCIIEncoder
             }
 
             return Character;
+        }
+
+        public static int Encode(string Character)
+        {
+            int value = 32;
+
+            switch (Character)
+            {
+                case "SP":
+                    value = 32;
+                    break;
+                case "!":
+                    value = 33;
+                    break;
+              //case """:
+              //    value = 34;
+              //    break;
+                case "#":
+                    value = 35;
+                    break;
+                case "$":
+                    value = 36;
+                    break;
+                case "%":
+                    value = 37;
+                    break;
+                case "&":
+                    value = 38;
+                    break;
+                case "'":
+                    value = 39;
+                    break;
+                case "(":
+                    value = 40;
+                    break;
+                case ")":
+                    value = 41;
+                    break;
+                case "*":
+                    value = 42;
+                    break;
+                case "+":
+                    value = 43;
+                    break;
+                case ",":
+                    value = 44;
+                    break;
+                case "-":
+                    value = 45;
+                    break;
+                case ".":
+                    value = 46;
+                    break;
+                case "/":
+                    value = 47;
+                    break;
+                case "0":
+                    value = 48;
+                    break;
+                case "1":
+                    value = 49;
+                    break;
+                case "2":
+                    value = 50;
+                    break;
+                case "3":
+                    value = 51;
+                    break;
+                case "4":
+                    value = 52;
+                    break;
+                case "5":
+                    value = 53;
+                    break;
+                case "6":
+                    value = 54;
+                    break;
+                case "7":
+                    value = 55;
+                    break;
+                case "8":
+                    value = 56;
+                    break;
+                case "9":
+                    value = 57;
+                    break;
+                case ":":
+                    value = 58;
+                    break;
+                case ";":
+                    value = 59;
+                    break;
+                case "<":
+                    value = 60;
+                    break;
+                case "=":
+                    value = 61;
+                    break;
+                case ">":
+                    value = 62;
+                    break;
+                case "?":
+                    value = 63;
+                    break;
+                case "@":
+                    value = 64;
+                    break;
+                case "A":
+                    value = 65;
+                    break;
+                case "B":
+                    value = 66;
+                    break;
+                case "C":
+                    value = 67;
+                    break;
+                case "D":
+                    value = 68;
+                    break;
+                case "E":
+                    value = 69;
+                    break;
+                case "F":
+                    value = 70;
+                    break;
+                case "G":
+                    value = 71;
+                    break;
+                case "H":
+                    value = 72;
+                    break;
+                case "I":
+                    value = 73;
+                    break;
+                case "J":
+                    value = 74;
+                    break;
+                case "K":
+                    value = 75;
+                    break;
+                case "L":
+                    value = 76;
+                    break;
+                case "M":
+                    value = 77;
+                    break;
+                case "N":
+                    value = 78;
+                    break;
+                case "O":
+                    value = 79;
+                    break;
+                case "P":
+                    value = 80;
+                    break;
+                case "Q":
+                    value = 81;
+                    break;
+                case "R":
+                    value = 82;
+                    break;
+                case "S":
+                    value = 83;
+                    break;
+                case "T":
+                    value = 84;
+                    break;
+                case "U":
+                    value = 85;
+                    break;
+                case "V":
+                    value = 86;
+                    break;
+                case "W":
+                    value = 87;
+                    break;
+                case "X":
+                    value = 88;
+                    break;
+                case "Y":
+                    value = 89;
+                    break;
+                case "Z":
+                    value = 90;
+                    break;
+                case "[":
+                    value = 91;
+                    break;
+              // case "/":
+              //     value = 92;
+              //     break;
+                case "]":
+                    value = 93;
+                    break;
+                case "^":
+                    value = 94;
+                    break;
+                case "_":
+                    value = 95;
+                    break;
+                case "`":
+                    value = 96;
+                    break;
+                case "a":
+                    value = 97;
+                    break;
+                case "b":
+                    value = 98;
+                    break;
+                case "c":
+                    value = 99;
+                    break;
+                case "d":
+                    value = 100;
+                    break;
+                case "e":
+                    value = 101;
+                    break;
+                case "f":
+                    value = 102;
+                    break;
+                case "g":
+                    value = 103;
+                    break;
+                case "h":
+                    value = 104;
+                    break;
+                case "i":
+                    value = 105;
+                    break;
+                case "j":
+                    value = 106;
+                    break;
+                case "k":
+                    value = 107;
+                    break;
+                case "l":
+                    value = 108;
+                    break;
+                case "m":
+                    value = 109;
+                    break;
+                case "n":
+                    value = 110;
+                    break;
+                case "o":
+                    value = 111;
+                    break;
+                case "p":
+                    value = 112;
+                    break;
+                case "q":
+                    value = 113;
+                    break;
+                case "r":
+                    value = 114;
+                    break;
+                case "s":
+                    value = 115;
+                    break;
+                case "t":
+                    value = 116;
+                    break;
+                case "u":
+                    value = 117;
+                    break;
+                case "v":
+                    value = 118;
+                    break;
+                case "w":
+                    value = 119;
+                    break;
+                case "x":
+                    value = 120;
+                    break;
+                case "y":
+                    value = 121;
+                    break;
+                case "z":
+                    value = 122;
+                    break;
+                case "{":
+                    value = 123;
+                    break;
+                case "|":
+                    value = 124;
+                    break;
+                case "}":
+                    value = 125;
+                    break;
+                case "~":
+                    value = 126;
+                    break;
+                case "DEL":
+                    value = 127;
+                    break;
+                default:
+                    value = 32;
+                    break;
+            }
+
+            return value;
         }
     }
 }

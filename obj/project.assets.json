@@ -9,24 +9,27 @@
   },
   "packageFolders": {
     "C:\\Users\\Malik\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Malik\\source\\repos\\DuePlay\\ASCIIEncoder\\ASCIIEncoder.csproj",
+      "projectUniqueName": "C:\\Users\\Malik\\source\\repos\\ASCIIEncoder\\ASCIIEncoder.csproj",
       "projectName": "ASCIIEncoder",
-      "projectPath": "C:\\Users\\Malik\\source\\repos\\DuePlay\\ASCIIEncoder\\ASCIIEncoder.csproj",
+      "projectPath": "C:\\Users\\Malik\\source\\repos\\ASCIIEncoder\\ASCIIEncoder.csproj",
       "packagesPath": "C:\\Users\\Malik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Malik\\source\\repos\\DuePlay\\ASCIIEncoder\\obj\\",
+      "outputPath": "C:\\Users\\Malik\\source\\repos\\ASCIIEncoder\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\Malik\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

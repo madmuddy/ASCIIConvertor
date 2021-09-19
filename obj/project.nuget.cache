@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M/vyA0CI64Cg0YbDqW5mwCQkYnuevQpNwPJrimUNC0X7MGAcqC5XvvAtwJxAAAOc4xYE1Xy0hg1n4h+Hntl2+g==",
+  "dgSpecHash": "cqL0mPO9k+BXqZuLUcpcMTNGwrBzxv//vVd9e+CNHfzDPkGW03ec6kjS+woPmIPJzce7dQJyb2HhnPZKIENnJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Malik\\source\\repos\\DuePlay\\ASCIIEncoder\\ASCIIEncoder.csproj",
+  "projectFilePath": "C:\\Users\\Malik\\source\\repos\\ASCIIEncoder\\ASCIIEncoder.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

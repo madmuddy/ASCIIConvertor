@@ -7,3 +7,13 @@ C:\Users\Malik\source\repos\DuePlay\ASCIIEncoder\obj\Debug\netcoreapp3.1\ASCIIEn
 C:\Users\Malik\source\repos\DuePlay\ASCIIEncoder\obj\Debug\netcoreapp3.1\ASCIIEncoder.csproj.CoreCompileInputs.cache
 C:\Users\Malik\source\repos\DuePlay\ASCIIEncoder\obj\Debug\netcoreapp3.1\ASCIIEncoder.dll
 C:\Users\Malik\source\repos\DuePlay\ASCIIEncoder\obj\Debug\netcoreapp3.1\ASCIIEncoder.pdb
+C:\Users\Malik\source\repos\ASCIIEncoder\bin\Debug\netcoreapp3.1\ASCIIEncoder.deps.json
+C:\Users\Malik\source\repos\ASCIIEncoder\bin\Debug\netcoreapp3.1\ASCIIEncoder.dll
+C:\Users\Malik\source\repos\ASCIIEncoder\bin\Debug\netcoreapp3.1\ASCIIEncoder.pdb
+C:\Users\Malik\source\repos\ASCIIEncoder\obj\Debug\netcoreapp3.1\ASCIIEncoder.csproj.AssemblyReference.cache
+C:\Users\Malik\source\repos\ASCIIEncoder\obj\Debug\netcoreapp3.1\ASCIIEncoder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Malik\source\repos\ASCIIEncoder\obj\Debug\netcoreapp3.1\ASCIIEncoder.AssemblyInfoInputs.cache
+C:\Users\Malik\source\repos\ASCIIEncoder\obj\Debug\netcoreapp3.1\ASCIIEncoder.AssemblyInfo.cs
+C:\Users\Malik\source\repos\ASCIIEncoder\obj\Debug\netcoreapp3.1\ASCIIEncoder.csproj.CoreCompileInputs.cache
+C:\Users\Malik\source\repos\ASCIIEncoder\obj\Debug\netcoreapp3.1\ASCIIEncoder.dll
+C:\Users\Malik\source\repos\ASCIIEncoder\obj\Debug\netcoreapp3.1\ASCIIEncoder.pdb
