@@ -17,7 +17,7 @@
    # Example:
      You give the value of 77, it return its Charcter value "M".
      
-    ``
+    ```
     string char_value = null;
     // Calling the Convert Method form Dll
     char_value = Encode.Convert(77);
@@ -25,4 +25,4 @@
     Console.WriteLine(char_value);
     
     // Output will be M.
-    ``
+    ```
