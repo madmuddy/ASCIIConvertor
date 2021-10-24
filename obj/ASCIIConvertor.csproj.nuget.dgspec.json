@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Malik\\source\\repos\\ASCIIEncoder\\ASCIIEncoder.csproj": {}
+    "C:\\Users\\Malik\\source\\repos\\ASCIIConvertor\\ASCIIConvertor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Malik\\source\\repos\\ASCIIEncoder\\ASCIIEncoder.csproj": {
+    "C:\\Users\\Malik\\source\\repos\\ASCIIConvertor\\ASCIIConvertor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Malik\\source\\repos\\ASCIIEncoder\\ASCIIEncoder.csproj",
+        "projectUniqueName": "C:\\Users\\Malik\\source\\repos\\ASCIIConvertor\\ASCIIConvertor.csproj",
         "projectName": "ASCIIConvertor",
-        "projectPath": "C:\\Users\\Malik\\source\\repos\\ASCIIEncoder\\ASCIIEncoder.csproj",
+        "projectPath": "C:\\Users\\Malik\\source\\repos\\ASCIIConvertor\\ASCIIConvertor.csproj",
         "packagesPath": "C:\\Users\\Malik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Malik\\source\\repos\\ASCIIEncoder\\obj\\",
+        "outputPath": "C:\\Users\\Malik\\source\\repos\\ASCIIConvertor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

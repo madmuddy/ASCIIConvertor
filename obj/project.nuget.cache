@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "cqL0mPO9k+BXqZuLUcpcMTNGwrBzxv//vVd9e+CNHfzDPkGW03ec6kjS+woPmIPJzce7dQJyb2HhnPZKIENnJA==",
+  "dgSpecHash": "eOP/r8b3Yfxcqmj7NEvbn1Us/AZnP9tHt5Wvd+RfK4kH77afQ1nHBc/83IUKvQlgUuHsFcSyN3KtzwvJBhvxWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Malik\\source\\repos\\ASCIIEncoder\\ASCIIEncoder.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Malik\\source\\repos\\ASCIIConvertor\\ASCIIConvertor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Malik\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\Malik\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\Malik\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\Malik\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\Malik\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Malik\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,7 +1,71 @@
-namespace ASCIIEncoder
+using System;
+
+namespace ASCIIConvertor
 {
-    public static class Encoder
+    public static class ASCII
     {
+        public static string[] Decode(int[] values, bool array)
+        {
+            string[] characters = new string[values.Length];
+
+            for (int x = 0; x < values.Length; x++)
+            {
+                characters[x] = Decode(values[x]);
+            }
+
+            return characters;
+        }
+
+        public static string Decode(int[] values)
+        {
+            string[] characters = new string[values.Length];
+
+            for (int x = 0; x < values.Length; x++)
+            {
+                characters[x] = Decode(values[x]);
+            }
+
+            string line = "";
+
+            foreach (string character in characters)
+            {
+                line = line + character;
+            }
+
+            return line;
+        }
+
+        public static int[] Encode(string[] characters, bool array)
+        {
+            int[] values = new int[characters.Length];
+
+            for (int x = 0; x < characters.Length; x++)
+            {
+                values[x] = Encode(characters[x]);
+            }
+
+            return values;
+        }
+
+        public static int Encode(string[] characters)
+        {
+            int[] values = new int[characters.Length];
+
+            for (int x = 0; x < characters.Length; x++)
+            {
+                values[x] = Encode(characters[x]);
+            }
+
+            string strValue = "";
+
+            foreach (int value in values)
+            {
+                strValue = strValue + value.ToString();
+            }
+
+            return Convert.ToInt32(strValue);
+        }
+
         public static string Decode(int value)
         {
             string Character = null;
@@ -29,9 +93,9 @@ namespace ASCIIEncoder
                 case 38:
                     Character = "&";
                     break;
-                case 39:
-                    Character = "";
-                    break;
+               // case 39:
+               //     Character = "";
+               //     break;
                 case 40:
                     Character = "(";
                     break;
@@ -188,9 +252,9 @@ namespace ASCIIEncoder
                 case 91:
                     Character = "[";
                     break;
-                case 92:
-                    Character = "";
-                    break;
+               // case 92:
+               //     Character = "";
+               //    break;
                 case 93:
                     Character = "]";
                     break;
